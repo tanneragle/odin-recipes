@@ -1,0 +1,55 @@
+/* Style Sheet */
+
+/* Global Styles */
+
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #75CEF3;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+    background-color: gray;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* Home Page Links */
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+ul li {
+    margin: 10px 0; /* Add spacing between list items */
+}
+
+ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Set link color */
+    font-weight: bold; /* Make the text bold */
+    font-family: Arial, sans-serif; /* Set a font */
+    font-size: 18px; /* Set font size */
+    display: block; /* Make the links block-level elements */
+    padding: 5px; /* Add padding inside the links */
+    border-radius: 5px; /* Round the edges */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+ul li a:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    color: #0056b3; /* Darker blue text on hover */
+}
+
